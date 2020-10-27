@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Ejercicios Javascript</title>
+</head>
+<body>
+  <div class="contenedor">
+    <h1>EJERCICIOS JAVASCRIPT</h1>
+    <p>Indicación: Crear una carpeta y por cada ejercicio crear un archivo diferente con el programa que resuelva la consigna. Subir la carpeta al repositorio de GitHub.</p>
+
+    <!---Ejercicio 1 -->
+    <button onclick="saludo_alerta('Hola Mundo')" id="boton1">Ejercicio 1</button>
+
+    <!---Ejercicio 2 -->
+    <button onclick='sumar2num()' id="boton2">Ejercicio 2</button>
+    
+    <!---Ejercicio 3 -->
+    <button onclick='porconsola()' id='boton3'>Ejercicio 3</button>
+
+    <!---Ejercicio 5 -->
+    <span onclick="sumar2num2()"> E5: Sumar (click acá):</span><button id="boton4"></button>
+
+    <!---Ejercicio 6 -->
+    <button onclick="randomnum()">10 n° aleatorios</button>
+    <span id='ej6'></span>
+    <br>
+
+    <!---Ejercicio 7 -->
+    <div class="contenedor2">
+      <button onclick="cambioTexto('red')">Rojo</button>
+      <button onclick="cambioTexto('blue')">Azul</button>
+      <button onclick="cambioTexto('yellow')">Amarillo</button>
+      <span id='ej7'>Colores</span>
+    </div>
+
+    <!---Ejercicio 4 -->
+    <br>E4:<span onmouseover="cambioColor('red')" id='ej4'>Hola Mundo</span>
+
+    <!---Ejercicio 8 -->
+    <form>
+      <br>
+      E8:
+      <span>Nombre:</span><input id="i1" type="text">
+      <span>Apellido:</span><input id="i2" type="text">
+      <input type="button" onclick='MostrarSaludo()' value="Mostrar Saludo"></input>
+    </form>
+
+
+    <p id='ej8'></p>
+
+    <!---Ejercicio 9 -->
+    E9:
+    <span>Año nacimiento:</span><input id="i3" type="text">
+    <input type="button" onclick='calculoEdad()' value="Calcular Edad"></input>
+    <br><p>Años de la persona:<span id='ej9'></span></p>
+
+    <!---Ejercicio 10-->
+    -<input type="radio" onclick="mostrar_valor('1')" id="br1" value="opción 1"><span id="ej10a"></span><br>
+    -<input type="radio" onclick="mostrar_valor('2')" id="br2" value="opción 2"><span id="ej10b"></span><br>
+    -<input type="radio" onclick="mostrar_valor('3')" id="br3" value="opción 3"><span id="ej10c"></span><br>
+  </div>
+</body>
+
+  <script src="ejercicio1.js"></script>
+  <script src="ejercicio2.js"></script>
+  <script src="ejercicio3.js"></script>
+  <script src="ejercicio4.js"></script>
+  <script src="ejercicio5.js"></script>
+  <script src="ejercicio6.js"></script>
+  <script src="ejercicio7.js"></script>
+  <script src="ejercicio8.js"></script>
+  <script src="ejercicio9.js"></script>
+  <script src="ejercicio10.js"></script>
+</html>
