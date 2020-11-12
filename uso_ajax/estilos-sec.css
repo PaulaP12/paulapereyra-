@@ -1,0 +1,10 @@
+select {
+	padding: 5px;
+	margin-right:20px;
+	margin-left: 15px;
+}
+
+.container {
+	text-align:center;
+	margin: 250px 0 0 80px;
+}
